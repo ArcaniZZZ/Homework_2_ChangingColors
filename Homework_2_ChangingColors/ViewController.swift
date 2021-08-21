@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         greenColorValue.text = String(format: "%.2f", greenSlider.value)
         blueColorValue.text = String(format: "%.2f", blueSlider.value)
     }
-    // MARK: Making the color box look neat
+    // MARK: Making the color box look neat and changing the color of the Color Box
     override func viewDidLayoutSubviews() {
         colorBox.layer.cornerRadius = 10
         colorBox.backgroundColor = changeColorBoxColor()

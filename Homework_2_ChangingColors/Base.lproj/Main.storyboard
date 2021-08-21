@@ -24,19 +24,19 @@
                                 <rect key="frame" x="20" y="264" width="374" height="30"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gCb-Af-iMB">
-                                        <rect key="frame" x="0.0" y="5" width="34.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="5" width="32.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ucX-4c-Ke3">
-                                        <rect key="frame" x="65.5" y="5" width="34.5" height="20.5"/>
+                                        <rect key="frame" x="63.5" y="5" width="32.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hCH-3U-OG1">
-                                        <rect key="frame" x="129" y="0.0" width="247" height="31"/>
+                                        <rect key="frame" x="125" y="0.0" width="251" height="31"/>
                                         <connections>
                                             <action selector="changeShownRedSliderValue" destination="BYZ-38-t0r" eventType="valueChanged" id="pZH-wl-mw2"/>
                                         </connections>
@@ -50,19 +50,19 @@
                                 <rect key="frame" x="20" y="314" width="374" height="30"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BsS-V2-ps9">
-                                        <rect key="frame" x="0.0" y="5" width="34.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="5" width="32.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZSR-sY-pRX">
-                                        <rect key="frame" x="65.5" y="5" width="34.5" height="20.5"/>
+                                        <rect key="frame" x="63.5" y="5" width="32.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="M4Y-kf-3gj">
-                                        <rect key="frame" x="129" y="0.0" width="247" height="31"/>
+                                        <rect key="frame" x="125" y="0.0" width="251" height="31"/>
                                         <connections>
                                             <action selector="changeShownGreenSliderValue" destination="BYZ-38-t0r" eventType="valueChanged" id="wNy-iM-Q6j"/>
                                         </connections>
@@ -76,19 +76,19 @@
                                 <rect key="frame" x="20" y="364" width="374" height="30"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NTE-ha-JT8">
-                                        <rect key="frame" x="0.0" y="5" width="34.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="5" width="32.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VX9-px-hkh">
-                                        <rect key="frame" x="64.5" y="5" width="34.5" height="20.5"/>
+                                        <rect key="frame" x="62.5" y="5" width="32.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="JQw-mt-Sm5">
-                                        <rect key="frame" x="127" y="0.0" width="249" height="31"/>
+                                        <rect key="frame" x="123" y="0.0" width="253" height="31"/>
                                         <connections>
                                             <action selector="changeShownBlueSliderValue" destination="BYZ-38-t0r" eventType="valueChanged" id="Q0x-ub-fPB"/>
                                         </connections>
